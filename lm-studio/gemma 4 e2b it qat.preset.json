@@ -1,0 +1,24 @@
+{
+  "identifier": "@local:gemma-4-e2b-it-qat",
+  "name": "gemma-4-e2b-it-qat",
+  "changed": true,
+  "operation": {
+    "fields": [
+      {
+        "key": "llm.prediction.temperature",
+        "value": 1
+      },
+      {
+        "key": "llm.prediction.topKSampling",
+        "value": 64
+      },
+      {
+        "key": "llm.prediction.systemPrompt",
+        "value": "<|think|> You are a helpful assistant who prioritizes direct and concise responses."
+      }
+    ]
+  },
+  "load": {
+    "fields": []
+  }
+}
